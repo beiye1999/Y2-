@@ -1,9 +1,9 @@
 package com.bdqn.sys.controller;
 
 
-import com.bdqn.sys.utils.JSONResult;
+import com.bdqn.common.utils.JSONResult;
 
-import com.bdqn.sys.utils.SystemConstant;
+import com.bdqn.common.utils.SystemConstant;
 import com.bdqn.sys.vo.LoginUserVo;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
@@ -11,7 +11,6 @@ import org.apache.shiro.subject.Subject;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;

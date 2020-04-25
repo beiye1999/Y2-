@@ -3,7 +3,7 @@ package com.bdqn.sys.entity;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.time.LocalDateTime;
+import java.util.Date;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -44,7 +44,7 @@ public class Notice implements Serializable {
     /**
      * 修改时间
      */
-    private LocalDateTime modifytime;
+    private Date modifytime;
 
     /**
      * 发布人
@@ -84,11 +84,11 @@ public class Notice implements Serializable {
         this.createtime = createtime;
     }
 
-    public LocalDateTime getModifytime() {
+    public Date getModifytime() {
         return modifytime;
     }
 
-    public void setModifytime(LocalDateTime modifytime) {
+    public void setModifytime(Date modifytime) {
         this.modifytime = modifytime;
     }
 

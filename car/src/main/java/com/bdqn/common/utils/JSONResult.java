@@ -1,4 +1,4 @@
-package com.bdqn.sys.utils;
+package com.bdqn.common.utils;
 
 /**
  * 返回值JSON结果

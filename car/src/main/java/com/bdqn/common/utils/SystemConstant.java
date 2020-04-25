@@ -1,4 +1,4 @@
-package com.bdqn.sys.utils;
+package com.bdqn.common.utils;
 
 public interface SystemConstant {
 
@@ -42,4 +42,11 @@ public interface SystemConstant {
      * 用户角色类型0为超级管理员
      */
     Integer USER_TYPE_SUPER=0;
+
+    /**
+     * 操作公告的状态
+     */
+    JSONResult EDI_SUCCESS=new JSONResult(true,"操作成功");
+    JSONResult EDI_ERROR=new JSONResult(false,"操作失败");
+    String EXIST = "exist";
 }
